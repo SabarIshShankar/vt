@@ -43,7 +43,7 @@ export default function Reviews() {
         >
           <div className="tracking-tight">
             <div className="w-full mr-2 h-48">
-              <div className="border border-gray-200 rounded-2xl">
+              <div className="border border-gray-200 rounded-2xl shadow-md">
                 <div className="mt-2">
                   <h1 className="mb-1 px-2 text-sm">Username</h1>
 

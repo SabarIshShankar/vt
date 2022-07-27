@@ -82,7 +82,7 @@ const ProductSection = () => {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div className="xl:w-2/5 md:w-1/2 lg:ml-8 md:ml-6 md:mt-0 mt-6">
+                <div className="xl:w-3/5 md:w-1/2 lg:ml-8 md:ml-6 md:mt-0 mt-6">
                     <div className="pb-4">
                         <h1
                             className="
@@ -146,9 +146,9 @@ const ProductSection = () => {
                     </button>
                     <div>
                         <div className="py-4 border-gray-200 flex items-center justify-between">
-                            <p className="text-base leading-4 text-gray-800">Description</p>
+                            <p className="text-gray-800">Description</p>
                         </div>
-                        <p className="lg:leading-tight leading-normal text-gray-600">
+                        <p className="text-gray-600">
                             We think these sheets are pretty great. With comfort in mind, we
                             developed a signature brushed fabric that's amazingly soft,
                             breathes well and resists wrinkles.

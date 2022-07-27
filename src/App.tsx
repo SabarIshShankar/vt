@@ -9,7 +9,7 @@ import Header from "./Header";
 
 const App = () => {
     return (
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto font">
             <Header/>
             <ProductSection/>
             <Reviews/>
