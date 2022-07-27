@@ -139,20 +139,22 @@ const ProductSection = () => {
 						bg-gray-800
 						w-full
 						py-4
-						hover:bg-gray-700 rounded-lg
+						hover:bg-black rounded-lg
+                        transition ease-in-out delay-150
+                        hover:-translate-y-0.5
 					"
                     >
                         Buy now in shop
                     </button>
                     <div>
-                        <div className="py-4 border-gray-200 flex items-center justify-between">
+                        <div className="py-4 border-gray-200 items-center justify-between">
                             <p className="text-gray-800">Description</p>
-                        </div>
+                        
                         <p className="text-gray-600">
                             We think these sheets are pretty great. With comfort in mind, we
                             developed a signature brushed fabric that's amazingly soft,
                             breathes well and resists wrinkles.
-                        </p>{" "}
+                        </p></div>
                     </div>
                 </div>
             </div>

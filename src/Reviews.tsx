@@ -32,7 +32,7 @@ export default function Reviews() {
     <>
       <div className="App h-48 mx-auto py-3 px-4 sm:py-3 sm:px-3 lg:px-10 font">
         <div className="border-gray-200 flex items-center justify-between">
-          <p className="text-base leading-4 text-gray-800">Description</p>
+          <p className="text-base leading-4 text-gray-800">Reviews</p>
         </div>
         <Carousel
           responsive={responsive}
@@ -41,10 +41,10 @@ export default function Reviews() {
           autoPlay={true}
           infinite
         >
-          <div className="tracking-tight">
-            <div className="w-full mr-2 h-48">
-              <div className="border border-gray-200 rounded-2xl shadow-md">
-                <div className="mt-2">
+          <div className="tracking-tight m-1">
+            <div className="w-full mr-2">
+              <div className="border border-gray-200 bg-white rounded-lg shadow-md">
+                <div className="mt-2 h-48">
                   <h1 className="mb-1 px-2 text-sm">Username</h1>
 
                   <p className="mb-1 px-2 text-lg font-medium pr-2 flex text-yellow-600">
@@ -65,8 +65,8 @@ export default function Reviews() {
           </div>
           <div className="tracking-tight m-1">
             <div className="w-full mr-2 h-48">
-              <div className="border border-gray-200 rounded-2xl">
-                <div className="mt-2">
+              <div className="border border-gray-200 bg-white rounded-lg shadow-md">
+                <div className="mt-2 h-48">
                   <h1 className="mb-1 px-2 text-sm">Username</h1>
 
                   <p className="mb-1 px-2 text-lg font-medium pr-2 flex text-yellow-600">
@@ -84,10 +84,10 @@ export default function Reviews() {
               </div>
             </div>
           </div>
-          <div className="tracking-tight m-1">
+          <div className="tracking-tight m-1 h-96">
             <div className="w-full mr-2 h-48">
-              <div className="border border-gray-200 rounded-2xl">
-                <div className="mt-2">
+              <div className="border border-gray-200 bg-white rounded-lg shadow-md">
+                <div className="mt-2 h-48">
                   <h1 className="mb-1 px-2 text-sm">Username</h1>
 
                   <p className="mb-1 px-2 text-lg font-medium pr-2 flex text-yellow-600">
@@ -108,8 +108,8 @@ export default function Reviews() {
           </div>
           <div className="tracking-tight m-1">
             <div className="w-full mr-2 h-48">
-              <div className="border border-gray-200 rounded-2xl">
-                <div className="mt-2">
+              <div className="border border-gray-200 bg-white rounded-lg shadow-md">
+                <div className="mt-2 h-48">
                   <h1 className="mb-1 px-2 text-sm">Username</h1>
 
                   <p className="mb-1 px-2 text-lg font-medium pr-2 flex text-yellow-600">
