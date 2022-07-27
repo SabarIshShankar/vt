@@ -6,6 +6,7 @@ import Cta from './Cta'
 import "./styles.css";
 import ProductSection from "./ProductSection";
 import Header from "./Header";
+import AboutBrand from "./About";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <ProductSection/>
             <Reviews/>
             <Cta/>
+            <AboutBrand/>
         </div>
     );
 };
