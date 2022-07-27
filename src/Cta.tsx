@@ -12,7 +12,7 @@ import "./styles.css";
 const Cta = () => {
     return (
         <div>
-            <div className="flex fixed1 bg-white shadow-md pt-3 mx-auto px-2 lg:max-w-xl lg:px-8 md:hidden">
+            <div className="flex fixed1 bg-white shadow-md pt-3 mx-auto px-2 lg:px-8 max-w-2xl md:hidden">
                 <button
                     className="mx-2 w-full pr-2 text-sm flex h-12 items-center border border-gray-200 justify-center rounded-lg bg-yellow-600 text-white outline-none focus:outline-none"
                 >

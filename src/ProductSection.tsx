@@ -9,8 +9,8 @@ import { Pagination } from "swiper";
 const ProductSection = () => {
     return (
         <div>
-            <div className="md:flex items-start justify-center py-5 2xl:px-20 md:px-6 px-4">
-                <div className="xl:w-2/6 lg:w-2/5 w-80 md:block hidden">
+            <div className="md:flex items-start justify-center py-5 2xl:px-10 md:px-6 px-4">
+                <div className="xl:w-1/2 lg:w-2/5 w-fit md:block hidden">
                     <Swiper
                         pagination={true}
                         modules={[Pagination]}

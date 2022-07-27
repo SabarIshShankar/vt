@@ -30,7 +30,7 @@ export default function Reviews() {
   };
   return (
     <>
-      <div className="App h-48 mx-auto py-3 px-4 sm:py-3 sm:px-3 lg:px-44 font">
+      <div className="App h-48 mx-auto py-3 px-4 sm:py-3 sm:px-3 lg:px-10 font">
         <div className="border-gray-200 flex items-center justify-between">
           <p className="text-base leading-4 text-gray-800">Description</p>
         </div>

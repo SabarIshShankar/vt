@@ -12,7 +12,7 @@ import "./styles.css";
 const Header = () => {
     return (
         <div>
-            <div className="header shadow-sm bg-white mx-auto py-5 px-5 sm:py-3 sm:px-3 lg:px-44 font">
+            <div className="header border-b border-gray-200 bg-white mx-auto py-5 px-5 sm:py-3 sm:px-3 lg:px-10 font">
                 <div className="flex text-xl justify-between">
                     <h1 className="tracking-tight text-2xl">glimpse</h1>
                     <div className="flex text-2xl">
