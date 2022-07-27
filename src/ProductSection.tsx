@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./styles.css";
+import {StarFilled} from '@ant-design/icons'
 
 import { Pagination } from "swiper";
 
@@ -83,38 +84,35 @@ const ProductSection = () => {
                     </Swiper>
                 </div>
                 <div className="xl:w-3/5 md:w-1/2 lg:ml-8 md:ml-6 md:mt-0 mt-6">
-                    <div className="pb-4">
+                    <div className="pb-1">
                         <h1
                             className="
 							lg:text-xl
-							text-lg
-							lg:leading-6 leading-7 mt-2"
+							text-md"
                         >
                             Hibernate Sheet Sets
                         </h1>
-                        <h1 className="lg:text-2xl	text-xl	lg:leading-6 leading-7 flex">
-                            <span className="lg:text-2xl   rounded-xl text-xl	lg:leading-6leading-7 mt-1">
+                        <div className="lg:text-2xl	text-xl flex">
+                            <span className="lg:text-2xl   rounded-xl text-xl">
                                 $55.96
                             </span>
-                            <span className="lg:text-2xl rounded-xl text-xl	text-gray-500 lg:leading-6leading-7 mt-1 px-3 line-through">
+                            <span className="lg:text-2xl rounded-xl text-xl	text-gray-500 px-3 line-through">
                                 $69.95
                             </span>
-                        </h1>
-                        <div className="mt-2">
-                            <span className="lg:text-md text-md bg-yellow-500 rounded-full px-3 py-1 text-white">
-                                20% OFF
+                            <span className="lg:text-sm autolayout text-sm bg-green-600 rounded-full px-3 py-0.5 text-white">
+                                5.0 <StarFilled/>
                             </span>
                         </div>
                     </div>
 
                     <div>
                         <button className="autolayout w-full flex justify-between p-2 my-4 content-center rounded-lg text-black flex border border-neutral-300">
-                            <div className="bg-yellow-600 text-white rounded-3xl text-xs px-3 py-2">
+                            <span className="bg-yellow-600 text-white rounded-3xl text-xs px-3 py-2">
                                 Get 20% OFF
-                            </div>
-                            <div>
+                            </span>
+                            <span>
                                 <span className="px-1">Click to view discount code</span>
-                            </div>
+                            </span>
                         </button>
                     </div>
                     <div className="text-xl w-full">

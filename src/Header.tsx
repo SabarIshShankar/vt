@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import {
     HeartOutlined,
-    ShareAltOutlined,
+    ShareAltOutlined, LeftOutlined
 } from "@ant-design/icons";
 import { RWebShare } from "react-web-share";
 import { BottomSheet, Button } from "@cred/neopop-web/lib/components";
@@ -18,8 +18,10 @@ const Header = () => {
     return (
         <div>
             <div className="header border-b border-gray-200 bg-white mx-auto py-5 px-5 sm:py-3 sm:px-3 lg:px-10 font">
-                <div className="flex text-xl justify-between">
-                    <h1 className="tracking-tight text-2xl">glimpse</h1>
+                <div className="flex justify-between autolayout">
+
+                        <div className="text-2xl ">glimpse</div>
+                   
                     <div className="flex text-2xl">
                         <div className="px-3 hover:bg-gray-50 rounded-lg
                         transition ease-in-out delay-150
@@ -73,7 +75,7 @@ const Header = () => {
                     </div>
                 </div>
             </BottomSheet>
-        
+
         </div>
     );
 };

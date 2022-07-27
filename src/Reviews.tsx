@@ -21,7 +21,7 @@ export default function Reviews() {
     },
     Sm: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+      items: 1.2
     },
     VrSm: {
       breakpoint: { max: 280, min: 0 },
@@ -38,7 +38,7 @@ export default function Reviews() {
           responsive={responsive}
           minimumTouchDrag={50}
           arrows={false}
-          autoPlay={true}
+          autoPlay={false}
           infinite
         >
           <div className="tracking-tight m-1">
