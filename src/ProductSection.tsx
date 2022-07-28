@@ -1,9 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./styles.css";
 import {StarFilled} from '@ant-design/icons'
+import { Navigation } from "swiper";
+
 
 import { Pagination } from "swiper";
 
@@ -14,12 +17,11 @@ const ProductSection = () => {
                 <div className="xl:w-1/2 lg:w-2/5 w-fit md:block hidden">
                     <Swiper
                         pagination={true}
-                        modules={[Pagination]}
                         className="mySwiper"
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: false,
-                        }}
+                        }} navigation={true} modules={[Navigation, Pagination]}
                     >
                         <SwiperSlide>
                             <img
@@ -50,12 +52,11 @@ const ProductSection = () => {
                 <div className="md:hidden -m-4">
                     <Swiper
                         pagination={true}
-                        modules={[Pagination]}
                         className="mySwiper"
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: false,
-                        }}
+                        }} navigation={true} modules={[Navigation, Pagination]}
                     >
                         <SwiperSlide>
                             <img
@@ -139,7 +140,7 @@ const ProductSection = () => {
 						py-4
 						hover:bg-black rounded-lg
                         transition ease-in-out delay-150
-                        hover:-translate-y-0.5
+                        hover:scale-100
 					"
                     >
                         Buy now in shop

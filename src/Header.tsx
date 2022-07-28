@@ -17,13 +17,17 @@ const Header = () => {
     };
     return (
         <div>
-            <div className="header border-b border-gray-200 bg-white mx-auto py-5 px-5 sm:py-3 sm:px-3 lg:px-10 font">
+            <div className="bg-yellow-600 text-center py-2 lg:px-4 p-2 bg-yellow-500 items-center text-white flex">
+                    <span className="mr-2 text-center flex-auto">Get exclusive offers for a limited time</span>
+            </div>
+            <div className="header border-b border-gray-200 bg-white mx-auto py-5 px-5 sm:py-3 sm:px-3 lg:px-10">
+
                 <div className="flex justify-between autolayout">
 
-                        <div className="text-2xl ">glimpse</div>
-                   
+                    <div className="text-2xl ">glimpse</div>
+
                     <div className="flex text-2xl">
-                        <div className="px-3 hover:bg-gray-50 rounded-lg
+                        <div className="px-3 rounded-lg
                         transition ease-in-out delay-150
                         hover:-translate-y-0.5" onClick={() => setOpen(true)}>
                             <HeartOutlined />

@@ -16,7 +16,7 @@ const Cta = () => {
     };
     return (
         <div className="">
-            <div className="flex fixed1 bg-white shadow-md pt-3 mx-auto px-2 lg:px-8 md:hidden">
+            <div className="flex fixed1 bg-white shadow-md border-t border-gray-200  pt-3 mx-auto px-2 lg:px-8 md:hidden">
                 <button
                     className="mx-2 w-full pr-2 text-sm flex h-12 items-center border border-gray-200 justify-center rounded-lg bg-yellow-600 text-white outline-none focus:outline-none"
                     onClick={() => setOpen(true)}>
@@ -25,7 +25,7 @@ const Cta = () => {
                 </button>
             </div>
 
-            <div className="flex fixed1 bg-white shadow-md pt-3 mx-auto px-2 lg:px-10  max-w-7xl md:block hidden md:flex justify-center">
+            <div className="flex fixed1 bg-white shadow-md  border-t border-gray-200  pt-3 mx-auto max-w-screen-2xl px-2 lg:px-10 md:block hidden md:flex justify-center">
                 <h1 className="text-lg w-full">20% OFF on Hibernate</h1>
                 <button
                     className="mx-2 w-full pr-2 text-sm flex h-12 items-center border border-gray-200 justify-center rounded-lg bg-yellow-600 text-white outline-none focus:outline-none"

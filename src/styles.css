@@ -1,11 +1,13 @@
 @font-face {
   font-family: "EV";
-  src: url("https://db.onlinewebfonts.com/t/75f4fe8dc3df637fa1060e0771326776.ttf");
+  src: url("https://db.onlinewebfonts.com/t/543092172c7d9a62dc51fa0fc510b6cf.ttf");
 }
+
+
 /*543092172c7d9a62dc51fa0fc510b6cf
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 /*https://db.onlinewebfonts.com/t/67415ab41a7350f81536b69763e6d031.woff 03bd7255184e8e8ad4d2a521fa920b6c*/
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap');
+
 .font {
   font-family: 'EV', sans-serif;
 }
